@@ -9,4 +9,4 @@ class System {
     }
 }
 
-echo System::getConfig('user') . PHP_EOL;    
+echo System::getConfig('user') . PHP_EOL;
