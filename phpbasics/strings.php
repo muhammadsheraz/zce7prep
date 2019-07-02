@@ -1,6 +1,8 @@
 <?php
+
 // echo strcmp(12345, '12345');
 
+// PHP Conditional Statememnt
 // if (12345 == '12345') {
 //     echo "greater";
 // } else {
@@ -10,7 +12,7 @@
 
 // $str = '12345';
 
-// $result = sscanf($str, '%1d%1d%1d%1d%1d');
+// $result = sscnnf($str, '%1d%1d%1d%1d%1d');
 // list($serial) = sscanf("SN/2350001", "SN/%d");
 // echo '<pre>';
 // print_R($result);
@@ -46,8 +48,61 @@
 
 // print_r($qr);
 
-$number = 123;
-printf("With 2 decimals: %1\$.2f
-<br>With no decimals: %1\$u",$number);
+//$number = 123;
+//$number2 = 456;
+//printf("With 2 decimals: %1\$.2f
+//<br>With no decimals: %2\$u",$number, $number2);
 
-die;
+// $str1 = "Hello";
+// $str2 = "Hello world!";
+
+// printf("[%s]<br>",$str1);
+// printf("[%8s]<br>",$str1);
+// printf("[%-8s]<br>",$str1);
+// printf("[%08s]<br>",$str1); 
+// printf("[%'*8s]<br>",$str1);
+// printf("[%8.8s]<br>",$str2);
+
+// This sectence is going to be searched by Regex. 
+// An student has a phone no. (123)-454-4543
+
+// $output = file("practice.txt");
+
+// print_r($output);
+
+
+// echo "22" + "0.2", 23.1;
+
+
+// $var = 'fruits';
+
+// $fruits = ['Apple', 'Mango', 'Peach'];
+
+// $Array = "Hello";
+
+// echo "<pre>";
+// print_r($$$var);
+
+// $me = 'Champ';
+
+// echo <<<CHAMP
+// I am $me
+// CHAMP;
+// header('Content-Type: text/html; charset=utf-8');
+// $text= 'This is text';
+// $text = <<<'TEXT'
+// $text
+// TEXT;
+// $text2 = <<< TEXT
+// $text!
+// TEXT;
+// echo "$text2"; 
+
+
+
+// echo htmlspecialchars_decode('&#9986;&#10004;&#10013;'); 
+
+
+// print_r(strlen( '$&#9986;&#10004;&#10013;'));
+
+?>

@@ -1,29 +1,54 @@
 <?php
+echo "<pre>";
 // Practising XML with PHP
-// $xmlNode = new DOMDocument();
-// $xmlNode->loadXML('<root><node/></root>');
+// $xmlNode = new DOMDocument('1.0', 'iso-8859-1');
 // $element = $xmlNode->createElement('rest', 'rest value');
 
 // $xmlNode->appendChild($element);
 
 // echo $xmlNode->saveXML();
 
-$xml = <<<XML_STR
-<root>
-    <parent name="peter">
-        <child age="20">James</child>
-        <child age="5">LiLa</child>
-    </parent>
-    <parent name="anna">
-        <child age="10">Dido</child>
-        <child age="11">George</child>
-    </parent>
-</root>
-XML_STR;
 
+// $xml_string = new SimpleXMLElement($xml);
+// $teens = $xml_string->xpath('*/child[@age>9]');
 
-$xml_string = new SimpleXMLElement($xml);
-$teens = $xml_string->xpath('*/child[@age>9]');
+// echo "<pre>";
+// print_r($teens);
 
-echo "<pre>";
-print_r($teens);
+// Using DOMDocument Class
+// $xmlDom = new DOMDocument('1.0', 'iso-8859-1');
+// $xmlDom->load('book.xml');
+
+// Using SimpleXmlIterator Class
+
+// $xmlDom->formatOutput = true;
+// $xmlDom->save('newFile.xml');
+
+$xmlFile = 'book.xml';
+
+// SimpleXML
+$sXml = simplexml_load_file($xmlFile);
+
+// SimpleXML XPath
+// $xpath = $sXml->xpath('/bookstore/book[price>30]');
+
+// Importing to DOMElement and then converting to DOMDocument to perform XPath queries  
+$dElem = dom_import_simplexml($sXml);
+
+$domDoc = new DOMDocument('1.0', 'iso-8859-1');
+$dNode = $domDoc->importNode($dElem, true);
+$domDoc->appendChild($dNode);
+
+$dXPath = new DOMXpath($domDoc);
+$elements = $dXPath->query('book');
+
+if (!is_null($elements)) {
+    foreach ($elements as $element) {
+      echo "<br/>[". $element->nodeName. "]";
+  
+      $nodes = $element->childNodes;
+      foreach ($nodes as $node) {
+        echo $node->nodeValue. "\n";
+      }
+    }
+}

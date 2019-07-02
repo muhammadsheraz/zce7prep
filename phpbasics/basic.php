@@ -12,3 +12,7 @@ $dir = "/var/www";
 $directory = $dir ?? 'Directory not found';
 
 echo $directory;
+
+
+
+echo __file__;
