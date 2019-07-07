@@ -65,5 +65,18 @@
 // echo $str;
 
 
+// Reference + TypeHint
+// function trickyOne(stdClass &$x=null) {
+//     $x = 42;
+// }
+
+// $x = new stdClass();
+
+// trickyOne($x);
+
+// echo $x;
+
+
+
 
 

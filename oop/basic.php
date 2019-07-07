@@ -29,3 +29,15 @@
 // $x = new C("h");
 // $f = $x->c;
 // echo $f($x->m); 
+
+
+// class c {
+//     const A = 'Hello';
+
+//     function __toString() {
+        
+//         return  static::A;
+//     }
+// }
+
+// echo new C();

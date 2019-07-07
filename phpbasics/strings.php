@@ -101,8 +101,12 @@
 
 
 // echo htmlspecialchars_decode('&#9986;&#10004;&#10013;'); 
-
-
-// print_r(strlen( '$&#9986;&#10004;&#10013;'));
+// $special_str = '$&#9986;&#10004;&#10013;';
+// echo "special_str With strlen: " . strlen($special_str);
+// echo "<br>";
+// $mb_str = "字符＃ china string";
+// echo "With mb_strlen: " . mb_strlen($mb_str);
+// echo "<br>";
+// echo "With strlen: " . strlen($mb_str);
 
 ?>
