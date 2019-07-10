@@ -1,18 +1,18 @@
 <?php
 // Short Ternary Syntax
-$dir = "/var/www";
-$directory = $ufo ?? 'Directory not found';
+// $dir = "/var/www";
+// $directory = $ufo ?? 'Directory not found';
 
-echo $directory;
+// echo $directory;
 // the above will through E_NOTICE
 
 
 // Null Coalescing Operator
-$dir = "/var/www";
-$directory = $dir ?? 'Directory not found';
+// $dir = "/var/www";
+// $directory = $dir ?? 'Directory not found';
 
-echo $directory;
+// echo $directory;
 
 
 
-echo __file__;
+// echo __file__;
