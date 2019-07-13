@@ -20,7 +20,7 @@
 ## Session
 
 // Remaining for revision
-## RegEx [Started]
+## RegEx [Completed]
 ## Error Handling
 ## PDO essential already covered, only PDO in Detail is remaining
 ## Sessions and Security in detail [Completed]
@@ -33,3 +33,6 @@
 ## Cryptography https://www.php.net/manual/en/refs.crypto.php
 ## Network Functions https://www.php.net/manual/en/ref.network.php 
 ## Super Globals
+
+## New Features Walk-through [must]
+https://www.php.net/manual/en/migration70.new-features.php#migration70.new-features.unicode-codepoint-escape-syntax
