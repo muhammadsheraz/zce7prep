@@ -14,7 +14,7 @@ function eHandler ($errno, $errstr, $errfile, $errline) {
     return true;
 }
 
-function newFunc() {
+function newFunc($var) {
     echo $var;
-    $mysql = new mysql();
+//    $mysql = new mysql();
 }

@@ -29,9 +29,8 @@
 //    echo "Error caught!";
 //}
 
-$handler = function($errorNumber, $errorMessage, $file, $line) {
-    echo "Error [$errorNumber] in [$file] at line [$line]:
-'[$errorMessage]' <br>";
+$handler = function($exception) {
+    echo $exception->getMessage();
 };
 set_exception_handler($handler);
 
