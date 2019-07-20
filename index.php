@@ -21,17 +21,19 @@
 
 // Remaining for revision
 ## RegEx [Completed]
-## Error Handling
+## Error and Exception Handling [Completed]
 ## PDO essential already covered, only PDO in Detail is remaining
 ## Sessions and Security in detail [Completed]
 ## PHP.INI in detail [In-progress...]
+    ### Language Options
 ## Few concepts of OOP
 ## XML Handling
 ## Garbage Collection [Completed]
-## Info functions https://www.php.net/manual/en/ref.info.php
-## Info Constants https://www.php.net/manual/en/info.constants.php
-## Cryptography https://www.php.net/manual/en/refs.crypto.php
-## Network Functions https://www.php.net/manual/en/ref.network.php 
+## Info functions: https://www.php.net/manual/en/ref.info.php
+## Info Constants: https://www.php.net/manual/en/info.constants.php
+## Cryptography: https://www.php.net/manual/en/refs.crypto.php
+## Network Functions:  https://www.php.net/manual/en/ref.network.php
+## Apache Functions: https://www.php.net/manual/en/ref.apache.php
 ## Super Globals
 
 ## New Features Walk-through [must]
