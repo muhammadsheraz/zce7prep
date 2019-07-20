@@ -24,8 +24,7 @@
 ## Error and Exception Handling [Completed]
 ## PDO essential already covered, only PDO in Detail is remaining
 ## Sessions and Security in detail [Completed]
-## PHP.INI in detail [In-progress...]
-    ### Language Options
+## PHP.INI in detail [Completed]
 ## Few concepts of OOP
 ## XML Handling
 ## Garbage Collection [Completed]

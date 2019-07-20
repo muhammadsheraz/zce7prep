@@ -1,4 +1,5 @@
 <?php
+namespace Base;
 /**
  * Created by PhpStorm.
  * User: msher
