@@ -22,7 +22,7 @@
 // Remaining for revision
 ## RegEx [Completed]
 ## Error and Exception Handling [Completed]
-## PDO essential already covered, only PDO in Detail is remaining
+## PDO essential already covered, only PDO in Detail is remaining [Inprogress]
 ## Sessions and Security in detail [Completed]
 ## PHP.INI in detail [Completed]
 ## Few concepts of OOP
@@ -37,4 +37,8 @@
 
 ## New Features Walk-through [must]
 https://www.php.net/manual/en/migration70.new-features.php#migration70.new-features.unicode-codepoint-escape-syntax
+
+## Walkthrough all Array Functions
+## Walkthrough all String Functions
+
 
