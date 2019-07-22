@@ -59,3 +59,91 @@
 //echo "<pre>";
 //print_r($records);
 
+//## using fetch()
+//$dsn = 'mysql:host=localhost;dbname=zce';
+//$user = 'root';
+//$password = '';
+//
+//$pdo_connection = new PDO($dsn, $user, $password);
+//
+//$pdo_connection->setAttribute(PDO::ATTR_CASE, PDO::CASE_LOWER);
+//
+//$statement = 'SELECT * FROM `users` WHERE email LIKE :email';
+//
+//$pdoStatement = $pdo_connection->prepare($statement);
+//$email = '%gmail.com';
+//
+//$pdoStatement->bindParam('email', $email);
+//
+//$email = '%example.com';
+//
+//$pdoStatement->execute();
+//$records = $pdoStatement->fetchColumn(0);
+//
+//echo "<pre>";
+//print_r($records);
+//echo "<br>";
+//
+//echo $pdoStatement->columnCount();
+//
+//
+//$pdoStatement->closeCursor();
+//
+//$records = $pdoStatement->fetch();
+//
+//echo "<pre>";
+//var_dump($records); // return false;
+
+## debugDumpParams()
+//$dsn = 'mysql:host=localhost;dbname=zce';
+//$user = 'root';
+//$password = '';
+//
+//$pdo_connection = new PDO($dsn, $user, $password);
+//
+//$pdo_connection->setAttribute(PDO::ATTR_CASE, PDO::CASE_LOWER);
+//
+//$statement = 'SELECT * FROM `users` WHERE email LIKE :email';
+//
+//$pdoStatement = $pdo_connection->prepare($statement);
+//
+//$pdoStatement->bindParam('email', $email);
+//
+//$email = '%example.com';
+//
+//$pdoStatement->execute();
+//$records = $pdoStatement->fetchAll();
+//
+//echo "<pre>";
+//print_r($records);
+//echo "<br>";
+//
+//
+//print_r($pdoStatement->debugDumpParams());
+//echo "<br>";
+
+# bindColumn()
+$dsn = 'mysql:host=localhost;dbname=zce';
+$user = 'root';
+$password = '';
+
+$pdo_connection = new PDO($dsn, $user, $password);
+
+$pdo_connection->setAttribute(PDO::ATTR_CASE, PDO::CASE_LOWER);
+
+$statement = 'SELECT * FROM `users` WHERE email LIKE :email';
+
+$pdoStatement = $pdo_connection->prepare($statement);
+$email = '%example.com';
+
+$pdoStatement->bindParam('email', $email);
+$pdoStatement->execute();
+
+$pdoStatement->bindColumn(3, $result);
+
+$records = $pdoStatement->fetchAll(PDO::FETCH_BOTH);
+
+echo "<pre>";
+print_r($records);
+echo "<br>";
+

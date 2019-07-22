@@ -22,7 +22,7 @@
 // Remaining for revision
 ## RegEx [Completed]
 ## Error and Exception Handling [Completed]
-## PDO essential already covered, only PDO in Detail is remaining [Inprogress]
+## PDO essential already covered, only PDO in Detail is remaining [Completed]
 ## Sessions and Security in detail [Completed]
 ## PHP.INI in detail [Completed]
 ## Few concepts of OOP

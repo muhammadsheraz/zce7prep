@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bcee2c4-5f75-4fef-94db-2a6c202bc0e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/Library.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Library.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/arrays.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/arrays.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/basic.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/basic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/bitwise.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/bitwise.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/book.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basics/book.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/configuration.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/configuration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/constants.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/date.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/date.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/directory.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/directory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/example.csv" beforeDir="false" afterPath="$PROJECT_DIR$/basics/example.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/exceptions.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/exceptions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/files.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/files2.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/files2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/floats-integers.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/floats-integers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/functions_ref.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/functions_ref.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/general.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/general.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/illusion.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/basics/illusion.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/ini.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/ini.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/io.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/io.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/math.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/math.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/newFile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basics/newFile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/practice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/basics/practice.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/practice1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/basics/practice1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/references.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/references.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/sample.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basics/sample.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/strings.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/strings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/basics/test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/variables.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/variables.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpbasics/xml.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/xml.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            <state relative-caret-position="143">
+              <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -56,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/advanced/db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+            <state relative-caret-position="443">
+              <caret line="143" column="50" selection-start-line="143" selection-start-column="50" selection-end-line="143" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -65,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/PDO/PDO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="868" column="20" selection-start-line="868" selection-start-column="20" selection-end-line="868" selection-end-column="20" />
+            <state relative-caret-position="199">
+              <caret line="1379" column="28" selection-start-line="1379" selection-start-column="20" selection-end-line="1379" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -96,6 +65,8 @@
       <find>[^\n\r]</find>
       <find>\s\s\s</find>
       <find>pdo</find>
+      <find>fetchA</find>
+      <find>fetchAll</find>
     </findStrings>
     <replaceStrings>
       <replace>$2</replace>
@@ -185,6 +156,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.ini" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
@@ -223,12 +195,12 @@
       <workItem from="1560007303496" duration="7852000" />
       <workItem from="1561207672888" duration="192000" />
       <workItem from="1562687393759" duration="11343000" />
-      <workItem from="1562994978751" duration="43328000" />
+      <workItem from="1562994978751" duration="48839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123577000" />
+    <option name="totallyTimeSpent" value="129088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -538,24 +510,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/PDO/PDO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        <state relative-caret-position="199">
+          <caret line="1379" column="28" selection-start-line="1379" selection-start-column="20" selection-end-line="1379" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/PDO/PDO.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="868" column="20" selection-start-line="868" selection-start-column="20" selection-end-line="868" selection-end-column="20" />
+        <state relative-caret-position="143">
+          <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advanced/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+        <state relative-caret-position="443">
+          <caret line="143" column="50" selection-start-line="143" selection-start-column="50" selection-end-line="143" selection-end-column="50" />
         </state>
       </provider>
     </entry>
