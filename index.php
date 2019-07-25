@@ -34,6 +34,12 @@
 ## Network Functions:  https://www.php.net/manual/en/ref.network.php
 ## Apache Functions: https://www.php.net/manual/en/ref.apache.php
 ## Super Globals
+## I/O Stream Revision
+    ## File System Functions. [Completed]
+    ## Binary Data Vs Normal Data [Completed]
+    ## Stream context options : https://www.php.net/manual/en/context.php [Completed]
+    ## Stream context functions : https://www.php.net/manual/en/ref.stream.php
+## SPL Classes
 
 ## New Features Walk-through [must]
 https://www.php.net/manual/en/migration70.new-features.php#migration70.new-features.unicode-codepoint-escape-syntax

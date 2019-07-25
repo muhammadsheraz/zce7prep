@@ -1,18 +1,5 @@
-These filters are attached to a stream using the stream_filter_append() function.
 You can apply the filter to the read and write directions of the stream independently.
-
-<?php
-$handle = fopen("files.php", 'a+');
-stream_filter_append($handle, 'string.rot13');
-while (!feof($handle)) {
- echo fread($handle,1024);
-}
-
 You can provide a third parameter to stream_filter_append() to attach it to reading
 or writing the stream.
-
 The parameter is one of the predefined constants STREAM_FILTER_
-READ, STREAM_FILTER_WRITE, or STREAM_FILTER_ALL.
-
-By default, the filter is attached to
-reads and writes
+READ, STREAM_FILTER_WRITE, or STREAM_FILTER_ALL.PHP is a server side scripting language, best suited for web development.PHP is a server side scripting language, best suited for web development.PHP is a server side scripting language, best suited for web development.PHP is a server side scripting language, best suited for web development.PHP is a server side scripting language, best suited for web development.PHP is a server side scripting language, best suited for web development.PHP is a server side scripting language, best suited for web development.PHP is a server side scripting language, best suited for web development.I appending it in the end.
