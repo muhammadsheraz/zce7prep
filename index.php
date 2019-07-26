@@ -38,7 +38,7 @@
     ## File System Functions. [Completed]
     ## Binary Data Vs Normal Data [Completed]
     ## Stream context options : https://www.php.net/manual/en/context.php [Completed]
-    ## Stream context functions : https://www.php.net/manual/en/ref.stream.php
+    ## Stream context functions : https://www.php.net/manual/en/ref.stream.php [Completed]
 ## SPL Classes
 
 ## New Features Walk-through [must]

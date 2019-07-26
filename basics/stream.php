@@ -90,8 +90,8 @@ $filename = 'http://localhost/zce7prep/basics/stream_handler.php';
 //$fh = @fopen($filename, 'r', false, $stream_context);
 //
 //if ($fh) {
-//    echo stream_get_line($fh, 500);
-//    echo stream_get_contents($fh)
+////    echo stream_get_line($fh, 500);
+////    echo stream_get_contents($fh);
 //} else {
 //    throw new  Exception('Invalid file resource');
 //}
