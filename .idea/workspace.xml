@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9bcee2c4-5f75-4fef-94db-2a6c202bc0e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/arrays.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/arrays.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basics/new_features.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/new_features.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/stream.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/stream.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/stream_handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/stream_handler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +16,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basics/new_features.php">
+        <entry file="file://$PROJECT_DIR$/basics/arrays.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="483">
+              <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -52,6 +60,9 @@
       <find>pdo</find>
       <find>fetchA</find>
       <find>fetchAll</find>
+      <find>abstra</find>
+      <find>array_walk_recursive</find>
+      <find>array_key_exists</find>
     </findStrings>
     <replaceStrings>
       <replace>$2</replace>
@@ -95,10 +106,11 @@
         <option value="$PROJECT_DIR$/basics/binary.txt" />
         <option value="$PROJECT_DIR$/basics/practice.txt" />
         <option value="$PROJECT_DIR$/basics/io.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/basics/stream_handler.php" />
         <option value="$PROJECT_DIR$/basics/stream.php" />
         <option value="$PROJECT_DIR$/basics/new_features.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/basics/arrays.php" />
       </list>
     </option>
   </component>
@@ -120,11 +132,6 @@
             <path>
               <item name="zce7prep" type="b2602c69:ProjectViewProjectNode" />
               <item name="zce7prep" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zce7prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zce7prep" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zce7prep" type="b2602c69:ProjectViewProjectNode" />
@@ -151,12 +158,12 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\zce7prep\advanced" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\zce7prep\basics" />
       <recent name="D:\xampp\htdocs\zce7prep\phpbasics" />
-      <recent name="D:\xampp\htdocs\zce7prep\advanced" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\zce7prep\advanced" />
     </key>
   </component>
@@ -187,18 +194,19 @@
       <workItem from="1560007303496" duration="7852000" />
       <workItem from="1561207672888" duration="192000" />
       <workItem from="1562687393759" duration="11343000" />
-      <workItem from="1562994978751" duration="74548000" />
+      <workItem from="1562994978751" duration="74760000" />
+      <workItem from="1564157416315" duration="13010000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154797000" />
+    <option name="totallyTimeSpent" value="168019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24583964" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -223,18 +231,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basics/math.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oop/static-bindings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oop/serialize.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1800" />
@@ -267,9 +263,6 @@
           <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basics/arrays.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/basics/basic.php">
       <provider selected="true" editor-type-id="text-editor" />
@@ -492,13 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="44" selection-start-line="44" selection-end-line="44" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_6.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -520,10 +506,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/basics/new_features.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="1600">
+          <caret line="80" selection-start-line="80" selection-start-column="2" selection-end-line="93" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="705" column="9" selection-start-line="705" selection-start-column="9" selection-end-line="705" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics/arrays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
         </state>
       </provider>
     </entry>

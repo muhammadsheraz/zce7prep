@@ -42,9 +42,9 @@
 ## SPL Classes
 
 ## New Features Walk-through [must]
-https://www.php.net/manual/en/migration70.new-features.php#migration70.new-features.unicode-codepoint-escape-syntax
+https://www.php.net/manual/en/migration70.new-features.php#migration70.new-features.unicode-codepoint-escape-syntax [completed]
 
-## Walkthrough all Array Functions
+## Walkthrough all Array Functions [Completed]
 ## Walkthrough all String Functions
 
 
