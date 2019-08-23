@@ -29,9 +29,15 @@
 //    echo "Error caught!";
 //}
 
-$handler = function($exception) {
-    echo $exception->getMessage();
-};
-set_exception_handler($handler);
+//$handler = function($exception) {
+//    echo $exception->getMessage();
+//};
+//set_exception_handler($handler);
+//
+//badFuncCall();
 
-badFuncCall();
+set_error_handler(function ($error) {
+    echo "Listen, " . $error->getMessage();
+});
+
+echo user_error('Something happened really bad..!');

@@ -1,5 +1,5 @@
 <?php
-
+echo "<pre>";
 // echo strcmp(12345, '12345');
 
 // PHP Conditional Statememnt
@@ -109,4 +109,36 @@
 // echo "<br>";
 // echo "With strlen: " . strlen($mb_str);
 
-?>
+//echo addcslashes('foo[ ]', 'A..z');
+
+//echo chr(220);
+
+//$str = 'Wraps a string to a given number of characters';
+//$str = 'Wraps a string to a given number of characters';
+
+//echo chunk_split(base64_encode($str), 22, "<br>");
+
+//print_R(count_chars($str, 1));
+
+//$data = "Two Ts and one F.";
+
+//foreach (count_chars($data, 1) as $i => $val) {
+//    echo "There were $val instance(s) of \"" , chr($i) , "\" in the string.\n";
+//}
+
+//$str1 = 'Wraps a string';
+//$str2 = 'wraps a string';
+
+//echo strcmp($str1 > $str2);
+
+//$str1 = 'Wraps a string';
+//$str2 = 'wraps a string';
+//
+//echo strcasecmp($str1 , $str2);
+
+
+//echo substr('I am here on the table.', strpos('I am here on the table.', 'here'));
+
+//  $string = 'APPLE 97 with new string';
+//  echo stristr($string, '97'); // 97 = lowercase a
+// outputs: APPLE

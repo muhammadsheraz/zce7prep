@@ -24,31 +24,39 @@ echo "<pre>";
 // $xmlDom->formatOutput = true;
 // $xmlDom->save('newFile.xml');
 
-$xmlFile = 'book.xml';
+// $xmlFile = 'book.xml';
 
 // SimpleXML
-$sXml = simplexml_load_file($xmlFile);
+// $sXml = simplexml_load_file($xmlFile);
 
 // SimpleXML XPath
 // $xpath = $sXml->xpath('/bookstore/book[price>30]');
 
 // Importing to DOMElement and then converting to DOMDocument to perform XPath queries  
-$dElem = dom_import_simplexml($sXml);
+// $dElem = dom_import_simplexml($sXml);
 
-$domDoc = new DOMDocument('1.0', 'iso-8859-1');
-$dNode = $domDoc->importNode($dElem, true);
-$domDoc->appendChild($dNode);
+// $domDoc = new DOMDocument('1.0', 'iso-8859-1');
+// $dNode = $domDoc->importNode($dElem, true);
+// $domDoc->appendChild($dNode);
 
-$dXPath = new DOMXpath($domDoc);
-$elements = $dXPath->query('book');
+// $dXPath = new DOMXpath($domDoc);
+// $elements = $dXPath->query('book');
 
-if (!is_null($elements)) {
-    foreach ($elements as $element) {
-      echo "<br/>[". $element->nodeName. "]";
+// if (!is_null($elements)) {
+//     foreach ($elements as $element) {
+//       echo "<br/>[". $element->nodeName. "]";
   
-      $nodes = $element->childNodes;
-      foreach ($nodes as $node) {
-        echo $node->nodeValue. "\n";
-      }
-    }
-}
+//       $nodes = $element->childNodes;
+//       foreach ($nodes as $node) {
+//         echo $node->nodeValue. "\n";
+//       }
+//     }
+// }
+
+// echo '<pre>';
+// print_r($sXml->book);
+
+$a= [1,2,3] + [6=>1,5,6];
+
+echo "<pre>";
+print_r($a);
