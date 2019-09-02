@@ -82,7 +82,7 @@
 //     public function incrementBy2() {
 
 //         $this->increment();
-    
+
 //         $this->abc++;
 //     }
 // }
@@ -172,9 +172,9 @@
 // class Number {
 //     private $v;
 //     private static $sv = 10;
-    
+
 //     public function __construct($v) { $this->v = $v; } 
-    
+
 //     public function mul() {
 //         return static function ($x) {
 //             return isset($this) ? $this->v*$x : self::$sv*$x;
@@ -241,10 +241,49 @@
 // print_R($array);
 
 
-$d2=new DateTime("2012-07-08"); 
-$d1=new DateTime("2012-07-08"); 
+// $d2=new DateTime("2012-07-08"); 
+// $d1=new DateTime("2012-07-08"); 
 
 
-echo $d1 == $d2;
+// echo $d1 == $d2;
+
+$foods = [
+    [
+        'foodType' => 'fruits',
+        'itemID' => 1,
+        'itemName' => 'apple',
+    ],
+
+    [
+        'foodType' => 'fruits',
+        'itemID' => 2,
+        'itemName' => 'banana',
+    ],
+
+    [
+        'foodType' => 'veggies',
+        'itemID' => 3,
+        'itemName' => 'carrot',
+    ],
+
+    [
+        'foodType' => 'veggies',
+        'itemID' => 4,
+        'itemName' => 'broccoli',
+    ]
+
+];
+
+$grouped_foods = [];
+$groupByColumn = 'foodType';
+
+array_filter($foods, function ($foodItem) use(&$grouped_foods, $groupByColumn) {
+    $grouped_foods[$foodItem[$groupByColumn]][] = array_filter($foodItem, function ($key) use($groupByColumn) {
+        return $key != $groupByColumn;
+    }, ARRAY_FILTER_USE_KEY);
+});
 
 
+echo "<pre>";
+print_R($grouped_foods);
+echo "</pre>";
